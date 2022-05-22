@@ -113,14 +113,10 @@ const patched = computed(() => {
   if (items.loading) {
     return items;
   }
-  // @ts-ignore
-  if (items.items.length === 0) {
+  const slices = items.items[0]?.slices;
+  if (!slices) {
     return items;
   }
-  if (!items.items[0]) {
-    return items;
-  }
-  const slices = items.items[0].slices;
   const { update, delete: toDelete } = <valueType>value.value;
 
   if (update) {
@@ -154,8 +150,8 @@ const needsSave = computed(() => {
 });
 
 const pieData = computed(() => {
-  const items = patched.value;
-  const sorted = items.items[0].slices.sort((a, b) => a.sort - b.sort);
+  const slices = patched.value.items[0]?.slices || [];
+  const sorted = slices.sort((a, b) => a.sort - b.sort);
 
   return sorted.map((slice) => {
     return {
