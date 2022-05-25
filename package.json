@@ -17,7 +17,7 @@
     "build": "directus-extension build"
   },
   "devDependencies": {
-    "@directus/extensions-sdk": "9.11.0",
+    "@directus/extensions-sdk": "9.11.1",
     "@types/jest": "^27.5.0",
     "@vue/test-utils": "^2.0.0",
     "@vue/vue3-jest": "^28.0.0",
