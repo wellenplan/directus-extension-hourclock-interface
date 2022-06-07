@@ -3,10 +3,10 @@
 exports[`hourclock interface index should define an interface 1`] = `
 Object {
   "component": Object {
+    "__name": "interface",
     "emits": Array [
       "input",
     ],
-    "name": "interface",
     "props": Object {
       "collection": Object {
         "required": true,
