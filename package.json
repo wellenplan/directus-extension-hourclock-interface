@@ -27,7 +27,7 @@
     "invert-color": "^2.0.0",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
-    "ts-jest": "^28.0.4",
+    "ts-jest": "^28.0.5",
     "typescript": "^4.7.3",
     "vue": "^3.2.37",
     "vue-chartjs": "^4.1.1"
