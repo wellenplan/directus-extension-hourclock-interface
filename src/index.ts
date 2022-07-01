@@ -31,7 +31,7 @@ export default defineInterface({
 					interface: 'input',
 				},
 				schema: {
-					default_value: 60,
+					default_value: '60',
 				},
 			},
 			{
@@ -49,7 +49,7 @@ export default defineInterface({
 				field: 'enableCreate',
 				name: '$t:creating_items',
 				schema: {
-					default_value: true,
+					default_value: 'true',
 				},
 				meta: {
 					interface: 'boolean',
@@ -63,7 +63,7 @@ export default defineInterface({
 				field: 'enableSelect',
 				name: '$t:selecting_items',
 				schema: {
-					default_value: true,
+					default_value: 'true',
 				},
 				meta: {
 					interface: 'boolean',
