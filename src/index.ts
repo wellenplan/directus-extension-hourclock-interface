@@ -63,7 +63,7 @@ export default defineInterface({
 				field: 'enableSelect',
 				name: '$t:selecting_items',
 				schema: {
-					default_value: true,
+					default_value: 'true',
 				},
 				meta: {
 					interface: 'boolean',
