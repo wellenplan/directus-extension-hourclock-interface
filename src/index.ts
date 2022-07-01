@@ -31,7 +31,7 @@ export default defineInterface({
 					interface: 'input',
 				},
 				schema: {
-					default_value: 60,
+					default_value: '60',
 				},
 			},
 			{
