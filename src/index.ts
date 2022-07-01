@@ -49,7 +49,7 @@ export default defineInterface({
 				field: 'enableCreate',
 				name: '$t:creating_items',
 				schema: {
-					default_value: true,
+					default_value: 'true',
 				},
 				meta: {
 					interface: 'boolean',
