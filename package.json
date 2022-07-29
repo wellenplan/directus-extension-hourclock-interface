@@ -21,7 +21,7 @@
     "@types/jest": "^28.1.6",
     "@vue/test-utils": "^2.0.2",
     "@vue/vue3-jest": "^28.0.1",
-    "@wellenplan/vue-hourclock-pie": "^0.1.17",
+    "@wellenplan/vue-hourclock-pie": "^0.1.19",
     "chart.js": "^3.8.2",
     "chartjs-plugin-datalabels": "^2.0.0",
     "invert-color": "^2.0.0",
