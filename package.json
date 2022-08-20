@@ -20,7 +20,7 @@
     "@directus/extensions-sdk": "9.15.1",
     "@types/jest": "^28.1.7",
     "@vue/test-utils": "^2.0.2",
-    "@vue/vue3-jest": "^28.0.1",
+    "@vue/vue3-jest": "^28.1.0",
     "@wellenplan/vue-hourclock-pie": "^0.1.20",
     "chart.js": "^3.9.1",
     "chartjs-plugin-datalabels": "^2.1.0",
