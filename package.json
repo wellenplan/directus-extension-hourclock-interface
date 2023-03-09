@@ -23,7 +23,7 @@
     "@vue/vue3-jest": "^28.1.0",
     "@wellenplan/vue-hourclock-pie": "^0.1.22",
     "chart.js": "^3.9.1",
-    "chartjs-plugin-datalabels": "^2.1.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
     "invert-color": "^2.0.0",
     "jest": "^28.1.3",
     "jest-environment-jsdom": "^29.5.0",
